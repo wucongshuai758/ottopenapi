@@ -63,7 +63,7 @@ public class Demo {
             commonOttOpenapiResquest.setApiMethodName(methodName);
             commonOttOpenapiResquest.setBizParam(bizParam);
             OttOpenapiResponse ottOpenapiResponse = defaultOttOpenapiClient.execute(commonOttOpenapiResquest);
-            System.out.println("ottOpenapiResponse :"+ottOpenapiResponse.getBizResp());
+            System.out.println("ottOpenapiResponse1 :"+ottOpenapiResponse.getBizResp());
         } catch (Exception e) {
             e.printStackTrace();
         }
